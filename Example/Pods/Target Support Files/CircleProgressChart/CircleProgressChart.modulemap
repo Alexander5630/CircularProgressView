@@ -1,0 +1,6 @@
+framework module CircleProgressChart {
+  umbrella header "CircleProgressChart-umbrella.h"
+
+  export *
+  module * { export * }
+}

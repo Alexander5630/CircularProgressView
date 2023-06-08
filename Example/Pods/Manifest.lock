@@ -1,0 +1,16 @@
+PODS:
+  - CircleProgressChart (0.1.0)
+
+DEPENDENCIES:
+  - CircleProgressChart (from `../`)
+
+EXTERNAL SOURCES:
+  CircleProgressChart:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CircleProgressChart: 49a191b79321205abe14c88df7a23a3367d5a596
+
+PODFILE CHECKSUM: 78ee8cb678832f5ec2e1648076f4af5d5ff40396
+
+COCOAPODS: 1.11.3

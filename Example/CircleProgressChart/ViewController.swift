@@ -7,14 +7,24 @@
 //
 
 import UIKit
+import CircleProgressChart
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var chartView: CircularProgressView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        chartView.circleColor = .lightGray
+        chartView.progressColor = .orange
+        chartView.createCircularPath(percentage: 0.75, radius: 80)
+        chartView.hideCenterPercentage = false
     }
 
+    @IBAction func sliderValueChanged(_ sender: UISlider) {
+        chartView.percentage = CGFloat(sender.value)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

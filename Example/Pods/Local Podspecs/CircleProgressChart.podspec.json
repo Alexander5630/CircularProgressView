@@ -1,0 +1,22 @@
+{
+  "name": "CircleProgressChart",
+  "version": "0.1.0",
+  "summary": "A short description of CircleProgressChart.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/8058951/CircleProgressChart",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Roger Arroyo": "alexander.ag5630@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/8058951/CircleProgressChart.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "CircleProgressChart/Classes/**/*"
+}

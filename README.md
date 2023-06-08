@@ -22,7 +22,7 @@ pod 'CircleProgressChart'
 
 ## Author
 
-8058951, roger.arroyo@rappi.com
+Roger Arroyo, alexander.ag5630@gmail.com
 
 ## License
 
